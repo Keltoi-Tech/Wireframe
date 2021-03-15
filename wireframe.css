@@ -1,0 +1,222 @@
+
+.container{
+    height:auto;
+    padding: 0;
+    display: flex;
+    flex-direction:column;
+}
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.panel .r1{
+    flex:100%;
+    max-width: 100%;
+}
+
+.panel .r2{
+    flex: 50%;
+    max-width: 50%;
+}
+
+.desktop-only{
+    display: none;
+}
+
+.tablet-only{
+    display: none;
+}
+
+.mobile-only{
+    display: flex;
+}
+
+.mobile-none{
+    display: none;
+}
+
+.tablet-none{
+    display: flex;
+}
+
+.desktop-none{
+    display: flex;
+}
+
+.pos-center{
+    justify-content: center;
+}
+
+.just-it{
+    clear: both;    
+}
+
+.img-wrap{
+    flex:1 1 auto;
+}
+
+.img-wrap img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-wrap img.board{
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+body.fluid{
+    margin: 0;
+    padding: 0;
+}
+
+div.root.fluid
+{
+    padding: 0;
+    margin: 0;
+}
+
+div.back-pattern{
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+div.picture{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.picture.parallax{
+    background-attachment: fixed;
+}
+
+@media (min-width:987px)
+{
+
+    .desktop-only{
+        display: flex;
+    }
+
+    .tablet-only{
+        display: none;
+    }
+
+    .mobile-only{
+        display: none;
+    }
+
+    .panel .desktop-r1{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .panel .desktop-r2{
+        flex:50%;
+        max-width: 50%;
+    }
+
+    .panel .desktop-r3{
+        flex: 33.3333%;
+        max-width: 33.3333%;
+    }
+
+    .panel .desktop-r2-3rd{
+        flex:66.6666%;
+        max-width: 66.6666%;
+    }
+
+    .panel .desktop-r4{
+        flex:25%;
+        max-width: 25%;
+    }
+
+    .panel .desktop-r3-4th{
+        flex:75%;
+        max-width: 75%;
+    }
+
+    .panel .desktop-rgold{
+        flex:61.8%;
+        max-width: 61.8%;
+    }
+
+    .panel .desktop-rphi{
+        flex: 38.2%;
+        max-width: 38.2%;
+    }
+
+    .mobile-none{
+        display: flex;
+    }
+
+    .tablet-none{
+        display: flex;
+    }
+
+    .desktop-none{
+        display: none;
+    }
+}
+
+@media (max-width: 986px) and (min-width: 610px)
+{
+    .desktop-only{
+        display: none;
+    }
+
+    .tablet-only{
+        display: flex;
+    }
+
+    .mobile-only{
+        display: none;
+    }
+
+    .panel .tablet-r1{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .panel .tablet-r2{
+        flex:50%;
+        max-width: 50%;
+    }
+
+    .panel .tablet-r3{
+        flex: 33.3333%;
+        max-width: 33.3333%;
+    }
+
+    .panel .tablet-r2-3rd{
+        flex:66.6666%;
+        max-width: 66.6666%;
+    }
+
+    .panel .tablet-rgold{
+        flex:61.8%;
+        max-width: 61.8%;
+    }
+
+    .panel .tablet-rphi{
+        flex: 38.2%;
+        max-width: 38.2%;
+    }   
+
+    .mobile-none{
+        display: flex;
+    }
+
+    .tablet-none{
+        display: none;
+    }
+
+    .desktop-none{
+        display: flex;
+    }
+}
