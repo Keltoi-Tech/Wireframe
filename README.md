@@ -1,2 +1,2 @@
 # Wireframe
- css code to make easier formating basic html elements position - works fine and comes native in cthulhu
+ A css set to make easier html elements basic formatting and positioning  - works fine and native for cthulhu
